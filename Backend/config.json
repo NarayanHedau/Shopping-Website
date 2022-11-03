@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 3333
+  },
+  "dbUrl": "mongodb://localhost:27017/ecommerce_website",
+  "secretKey": "moviedb-app",
+  "staticFilesUrl": "moviedb",
+  "smsKey": ""
+}
