@@ -1,0 +1,128 @@
+::ng-deep .example-full-width{
+    width: 441px;
+}
+::ng-deep .mat-form-field-outline {
+    display: flex;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    color: white;
+    background-color: white;
+    height: 43px;
+    margin-top: 8px;
+}
+::ng-deep .mat-icon{
+    color: blue;
+}
+// .row{
+//     position: fixed;
+//     // display: -webkit-flex;
+//     // display: -ms-flexbox;
+//     // display: flex;
+//     // -webkit-flex: auto;
+//     // -ms-flex: auto;
+//     // flex: auto;
+//     // will-change: transform;
+//     width: 100%;
+//    // height: 56px;
+//    height: 66px;
+//    //margin-top: -3px;
+//    margin-top: -9px;
+//     background-color: #2874f0;
+//     color: #f0f0f0;
+//     // z-index: 10;
+//     // -webkit-flex-direction: row;
+//     // -ms-flex-direction: row;
+//     // flex-direction: row;
+//     margin-left: -125px;
+//     box-sizing: none !important;
+//     position: fixed;
+// }
+
+// .row{
+//   position: fixed;
+//     width: 100%;
+//     height: 66px;
+//     //margin-top: -191px;
+//    // margin-top: -35px;
+//    margin-top: -66px;
+
+//     background-color: #2874f0;
+//     color: #f0f0f0;
+//     // margin-left: -117px;
+//     // margin-left: -125px;
+//     margin-left: -117px;
+//     box-sizing: none !important;
+//     position: fixed;
+// }
+
+// header{
+  
+//   background-color: #2874f0;
+//   color: #f0f0f0;
+// }
+
+.logo{
+    margin-top: 13px;
+}
+.btn-login{
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    // margin-top: 18px;
+    margin-top: 12px;
+}
+.more-crat{
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 21px;
+}
+
+
+
+// .dropbtn {
+//     padding: 16px;
+//     font-size: 16px;
+//     border: none;
+//   }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 12rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd; 
+  cursor: pointer;
+  }
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: #00b050;}
