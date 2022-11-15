@@ -1,1 +1,68 @@
-<p>header works!</p>
+<header>
+
+
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">
+       <h1 class="logo">Flipcard</h1>
+      </div>
+      <div class="col-md-auto">  
+        <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label>Number</mat-label>
+            <mat-icon class="material-symbols-outlined"matPrefix>
+                search
+            </mat-icon>
+            <input type="text"
+            placeholder="Pick one"
+            aria-label="Number"
+            matInput
+            [formControl]="myControl"
+            [matAutocomplete]="auto">             
+            <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+              <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+        </mat-form-field>
+      </div>
+      <div class="col col-lg-2">
+        <!-- <button  class="btn-login">Login</button> -->
+        <div class="dropdown">
+            <div class="btn dropbtn"  >
+                 <button  class="btn-login" (click)="openDialog()">Login</button>
+              
+            </div>
+            <div class="dropdown-content">
+              <a   class="">My Account</a>
+              <a class="">Change Password</a>
+              <a  class="">Logout</a>
+            </div>
+          </div>
+      </div>
+      <div class="col col-lg-1">
+        <div class="dropdown">
+            <div class="btn dropbtn"  >
+                <p class="more-crat">More</p>
+              
+            </div>
+            <div class="dropdown-content">
+              <a   class="">My Account</a>
+              <a class="">Change Password</a>
+              <a  class="">Logout</a>
+            </div>
+          </div>
+       
+      </div>
+      <div class="col col-lg-1">
+        <p class="more-crat">Crat</p>
+      </div>
+    </div>
+  
+
+   
+  </div>
+</header>
+
+  
+
+   

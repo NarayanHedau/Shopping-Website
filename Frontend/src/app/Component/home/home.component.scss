@@ -1,0 +1,92 @@
+
+
+
+
+.row{
+    //position: fixed;
+  
+    width: 100%;
+   
+   // margin-top: 57px;
+  // margin-top: 66px;
+
+    color: #f0f0f0;
+   
+   // margin-left: -125px;
+   margin-left: 1px;
+    box-sizing: none !important;
+   
+
+    color: #f0f0f0;
+    background-color: #fff;
+   box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+
+  
+.img{
+    width: 64px;
+    height: 64px;
+    margin-top: 21px;
+}
+.mob-text{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.slide-img{
+    height: 238px;
+}
+// .hero-section{
+//     height: 238Px;
+//     margin-top: 191px;
+// }
+// .card {
+//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+//     padding: 16px;
+//     text-align: center;
+//     background-color: #f1f1f1;
+//   }
+
+.content{
+    margin-top: 21px;
+    padding: 22px 1px;
+    /* background-color: red; */
+    ///width: 66rem;
+    width: 82rem;
+    margin-left: 14px;
+    box-shadow: 0 4px 8px 0 rgb(12 2 2 / 20%);
+
+}
+.card {
+   // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   // max-width: 300px;
+   display: inline-block;
+     margin: 0 10px 10px;
+     width: 15%;
+    // margin: auto;
+    // text-align: center;
+    // font-family: arial;
+    border: 0;
+    box-sizing: none !important;
+  }
+
+  .pro-name{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #212121;    
+  }
+  .price{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #a4df7e;  
+  }

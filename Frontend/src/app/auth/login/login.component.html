@@ -1,0 +1,72 @@
+<div class="row" *ngIf="!users">
+  <div class="col-md-4">
+
+    <div class="bg-img">
+            <span class="_36KMOx"><span>Login</span>
+           </span>
+         <p class="_1-pxlW mt-3">
+         <span>Get access to your Orders, Wishlist and Recommendations</span>
+         </p>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="d-flex justify-content-end">
+     <button type="button" class="btn-close" [mat-dialog-close]="true" aria-label="Close"></button>
+    </div>
+    <form>
+      <mat-form-field class="example-full-width">
+        <mat-label>Enter Email/Number</mat-label>
+        <input matInput #tag maxlength="50" placeholder=" " >
+       
+       
+      </mat-form-field>         
+          
+      <mat-form-field class="example-full-width">
+        <mat-label>Enter Password</mat-label>
+        <input matInput placeholder=" " >
+       
+      </mat-form-field>         
+
+      <button mat-flat-button color="warn" class="mt-5">Login</button>
+      <p class="or">OR</p>
+      <button mat-raised-button>Request OTP</button>         
+
+     <p class="create-acnt" (click)="registration()" >New to Flipkart? Create an account</p>
+    </form>
+  </div>
+</div>
+
+
+
+<div class="row" *ngIf="users">
+  <div class="col-md-4">
+
+    <div class="bg-img">
+            <span class="KMOx">
+              <span>Looks like you're new here!</span>
+            </span>
+         <p class="_pxlW mt-3">
+          <span>Sign up with your mobile number to get started</span>
+         </p>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="d-flex justify-content-end">
+     <button type="button" class="btn-close" [mat-dialog-close]="true" aria-label="Close"></button>
+    </div>
+    <form>
+      <mat-form-field class="example-full-width">
+        <mat-label>Enter Mobile Number</mat-label>
+        <input matInput #tag maxlength="50" placeholder=" " >
+       
+       
+      </mat-form-field>             
+
+      <button mat-flat-button color="warn" class="mt-5">CONTINUE</button>
+  
+      <button mat-raised-button class="mt-4" (click)="existing()">Existing User? Log in</button>         
+
+    </form>
+  </div>
+</div>
+ 
