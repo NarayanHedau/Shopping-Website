@@ -5,12 +5,18 @@ import { AuthRoutingModule } from './auth-routing.module';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { AngularMaterialModule } from '../shareModule/angular-material/angular-material.module';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
+import { SingUpComponent } from './sing-up/sing-up.component';
 
 
 @NgModule({
   declarations: [
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    ForgotPasswordComponent,
+    ChangePasswordComponent,
+    SingUpComponent
   ],
   imports: [
     CommonModule,
