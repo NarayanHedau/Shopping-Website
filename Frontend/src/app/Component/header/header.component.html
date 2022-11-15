@@ -6,7 +6,7 @@
       <div class="col col-lg-2">
        <h1 class="logo">Flipcard</h1>
       </div>
-      <div class="col-md-auto">  
+      <div class="col-md-auto">
         <mat-form-field class="example-full-width" appearance="outline">
             <mat-label>Number</mat-label>
             <mat-icon class="material-symbols-outlined"matPrefix>
@@ -17,7 +17,7 @@
             aria-label="Number"
             matInput
             [formControl]="myControl"
-            [matAutocomplete]="auto">             
+            [matAutocomplete]="auto">
             <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
               <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
                 {{option}}
@@ -30,7 +30,7 @@
         <div class="dropdown">
             <div class="btn dropbtn"  >
                  <button  class="btn-login" (click)="openDialog()">Login</button>
-              
+
             </div>
             <div class="dropdown-content">
               <a   class="">My Account</a>
@@ -43,7 +43,7 @@
         <div class="dropdown">
             <div class="btn dropbtn"  >
                 <p class="more-crat">More</p>
-              
+
             </div>
             <div class="dropdown-content">
               <a   class="">My Account</a>
@@ -51,18 +51,18 @@
               <a  class="">Logout</a>
             </div>
           </div>
-       
+
       </div>
-      <div class="col col-lg-1">
-        <p class="more-crat">Crat</p>
+      <div class="col col-lg-1 text-end">
+        <p class="more-crat">Cart</p>
       </div>
     </div>
-  
 
-   
+
+
   </div>
 </header>
 
-  
 
-   
+
+

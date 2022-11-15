@@ -1,3 +1,5 @@
+import { MobileModule } from './mobile/mobile.module';
+import { RouterModule } from '@angular/router';
 import { AngularMaterialModule } from './shareModule/angular-material/angular-material.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,18 +19,25 @@ import { HomeComponent } from './Component/home/home.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-   
+
   ],
   imports: [
+    AppRoutingModule,
     AngularMaterialModule,
     BrowserModule,
-    AppRoutingModule,
+     MobileModule,
+
     BrowserAnimationsModule,
   
     
     
     
     
+
+
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

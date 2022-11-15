@@ -1,9 +1,10 @@
+import { MobileComponent } from './mobile.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MobileRoutingModule } from './mobile-routing.module';
 
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { AngularMaterialModule } from '../shareModule/angular-material/angular-material.module';
 import { CategoryComponent } from './category/category.component';
 import { BuyMobilesComponent } from './buy-mobiles/buy-mobiles.component';
@@ -16,6 +17,7 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
 @NgModule({
   declarations: [
   CategoryComponent,
+  MobileComponent,
   BuyMobilesComponent
   ],
   imports: [
@@ -23,8 +25,8 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     AngularMaterialModule,
     MobileRoutingModule,
     RouterModule,
-    NgxImageZoomModule 
-  
+    NgxImageZoomModule
+
   ]
 })
 export class MobileModule { }
