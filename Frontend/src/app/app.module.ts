@@ -8,6 +8,7 @@ import { HeaderComponent } from './Component/header/header.component';
 import { FooterComponent } from './Component/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+
 import { HomeComponent } from './Component/home/home.component';
 
 @NgModule({
@@ -23,7 +24,7 @@ import { HomeComponent } from './Component/home/home.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-   
+  
     
     
     

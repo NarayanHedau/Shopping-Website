@@ -1,0 +1,62 @@
+// img.sticky {
+//     position: -webkit-sticky;
+//     position: sticky;
+//     top: 0;
+//    // width: 200px;
+//     width: 310px;
+//     height: 416px;
+//     /* padding: 36px; */
+//     margin-left: 45px;
+//   }
+
+// .ngxImageZoomThumbnail{
+//   pointer-events: all;
+//   height: 416px;
+//   width: 312px;
+//   margin-left: -2px;
+// }
+
+::ng-deep .ngxImageZoomContainer > img{
+  pointer-events: all;
+  height: 416px;
+  width: 312px;
+  margin-left: -2px;
+}
+
+  .col-md-1{
+  
+    border: 1px solid #f0f0f0;
+}
+.col-md-4{
+    padding: 11px;
+    border: 1px solid #f0f0f0;
+}
+  .column{
+    justify-content: center;
+    position: relative;
+    width: 800px;
+   
+    height: 30rem;
+    overflow: auto;
+  }
+
+ .btn{
+    height: 56PX;
+    margin-left: 103px;
+    width: 219px;
+    background: #ff9f00;
+    /* margin-top: -42px; */
+}
+.bttn{
+    height: 56PX;
+    background: #fb641b;
+    width: 219px;
+   
+}
+  
+
+.card {
+    
+     border: 0;
+    
+   }

@@ -6,7 +6,8 @@ import { MobileRoutingModule } from './mobile-routing.module';
 import { RouterModule } from '@angular/router';
 import { AngularMaterialModule } from '../shareModule/angular-material/angular-material.module';
 import { CategoryComponent } from './category/category.component';
-
+import { BuyMobilesComponent } from './buy-mobiles/buy-mobiles.component';
+import { NgxImageZoomModule } from 'ngx-image-zoom';
 
 
 
@@ -14,13 +15,15 @@ import { CategoryComponent } from './category/category.component';
 
 @NgModule({
   declarations: [
-  CategoryComponent
+  CategoryComponent,
+  BuyMobilesComponent
   ],
   imports: [
     CommonModule,
     AngularMaterialModule,
     MobileRoutingModule,
     RouterModule,
+    NgxImageZoomModule 
   
   ]
 })
