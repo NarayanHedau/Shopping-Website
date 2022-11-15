@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { Observable, startWith, map } from 'rxjs';
 import { LoginComponent } from 'src/app/auth/login/login.component';
@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
   constructor( private dialog:MatDialog) { }
   id:string="nikhil"
 
-  myControl = new FormControl('');
+  myControl = new UntypedFormControl('');
   options: string[] = ['One', 'Two', 'Three'];
   filteredOptions!: Observable<string[]>;
 
