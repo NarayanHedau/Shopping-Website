@@ -11,9 +11,9 @@ export class BuyMobilesComponent implements OnInit {
 
   imageObject = [
     {
-    image: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
+    //image: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
     thumbImage: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
-    // title: 'Hummingbirds are amazing creatures'
+     title: 'Hummingbirds are amazing creatures'
     },
     {
       image: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
@@ -38,13 +38,13 @@ export class BuyMobilesComponent implements OnInit {
             {
               image: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
               thumbImage: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
-              // title: 'Hummingbirds are amazing creatures'
+               title: 'Hummingbirds are amazing creatures'
               },
-              {
-                image: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
-                thumbImage: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
-                // title: 'Hummingbirds are amazing creatures'
-                },
+              // {
+              //   image: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
+              //   thumbImage: '../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg',
+              //   // title: 'Hummingbirds are amazing creatures'
+              //   },
   ]
   constructor() { }
 

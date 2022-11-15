@@ -16,6 +16,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 
 
 
+
 @NgModule({
   declarations: [
   CategoryComponent,
@@ -28,7 +29,8 @@ import { NgImageSliderModule } from 'ng-image-slider';
     MobileRoutingModule,
     RouterModule,
     NgxImageZoomModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    
     
     
     
