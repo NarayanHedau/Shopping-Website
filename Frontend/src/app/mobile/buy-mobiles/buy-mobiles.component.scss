@@ -44,15 +44,21 @@
     height: 56PX;
     margin-left: 103px;
     width: 219px;
-    background: #ff9f00;
+    background: #ff9f00;;
     /* margin-top: -42px; */
 }
-.bttn{
-    height: 56PX;
-    background: #fb641b;
-    width: 219px;
-   
+
+.mat-flat-button.mat-warn, .mat-raised-button.mat-warn[_ngcontent-pre-c121], .mat-fab.mat-warn[_ngcontent-pre-c121], .mat-mini-fab.mat-warn[_ngcontent-pre-c121] {
+  background: #fb641b;
+  width: 219px;
+  height: 56PX;
 }
+// .bttn{
+//     height: 56PX;
+//     background: #fb641b;
+//     width: 219px;
+   
+// }
   
 
 .card {

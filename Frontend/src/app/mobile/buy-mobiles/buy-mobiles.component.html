@@ -1,6 +1,4 @@
-
-
-<div class="row">
+<div class="row" style="margin-top: 84px;">
     <div class="col-md-1  mt-2 mb-3" ></div> 
     <div class="col-md-4  align-middle mt-2 mb-3 "  >
       <!-- <img class="sticky  " src="../../../assets/i phone Image 2022-11-11 at 1.30.12 PM.jpeg" alt="Avatar"> -->
@@ -157,7 +155,8 @@
 </div>
 
 <div>
-    <button mat-flat-button  class="btn"color="warn">ADD TO CART</button>&nbsp;
+    
+    <button mat-flat-button  class="btn" color="primary">ADD TO CART</button>&nbsp;
     <button mat-flat-button class="bttn" color="warn">BUY NOW</button>
 </div>
 
@@ -325,6 +324,18 @@
       
     
 </div>
+
+
+<div style="width: 840px; height: 500px; text-align:center;margin:0; padding:0;">
+  <ng-image-slider #nav
+    [images]="imageObject"
+    [infinite]="false"
+    [autoSlide]="1"
+    [imageSize]="{width: '25%', height: 200}"
+    slideImage="1"></ng-image-slider>
+</div>
+
+
 
 
 

@@ -26,8 +26,8 @@ import { HomeComponent } from './Component/home/home.component';
     AngularMaterialModule,
     BrowserModule,
      MobileModule,
-
     BrowserAnimationsModule,
+    
   
     
     

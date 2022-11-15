@@ -9,6 +9,8 @@ import { AngularMaterialModule } from '../shareModule/angular-material/angular-m
 import { CategoryComponent } from './category/category.component';
 import { BuyMobilesComponent } from './buy-mobiles/buy-mobiles.component';
 import { NgxImageZoomModule } from 'ngx-image-zoom';
+import { NgImageSliderModule } from 'ng-image-slider';
+
 
 
 
@@ -25,8 +27,11 @@ import { NgxImageZoomModule } from 'ngx-image-zoom';
     AngularMaterialModule,
     MobileRoutingModule,
     RouterModule,
-    NgxImageZoomModule
-
+    NgxImageZoomModule,
+    NgImageSliderModule
+    
+    
+    
   ]
 })
 export class MobileModule { }
