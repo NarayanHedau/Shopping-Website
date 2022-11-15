@@ -7,11 +7,11 @@ import { MobileComponent } from './mobile.component';
 const routes: Routes = [
   {path:"",component:MobileComponent},
     {path:"mobile-type",component:CategoryComponent}
-  
+
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+   exports: [RouterModule]
 })
 export class MobileRoutingModule { }

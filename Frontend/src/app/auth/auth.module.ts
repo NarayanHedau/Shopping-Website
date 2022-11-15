@@ -8,6 +8,7 @@ import { AngularMaterialModule } from '../shareModule/angular-material/angular-m
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { SingUpComponent } from './sing-up/sing-up.component';
+import { MyAccountComponent } from './my-account/my-account.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SingUpComponent } from './sing-up/sing-up.component';
     RegistrationComponent,
     ForgotPasswordComponent,
     ChangePasswordComponent,
-    SingUpComponent
+    SingUpComponent,
+    MyAccountComponent
   ],
   imports: [
     CommonModule,
